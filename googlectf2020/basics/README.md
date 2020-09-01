@@ -171,7 +171,7 @@ As stated before, verilog treats comma separted values as one value appended to 
 * `memory[7]` = `1011000` = X
 * `memory[1]` = `0101010` = *
 
-Recall that `idx`, when being used to set the value of `memory[idx]` in the clock positive edge trigger, is incremented by 5. However, it is only a 3-bit value. To account for this, I wrote a simple C program that would increment an 8-bit integer `i` 100 times, mimicing the `for` loop in `main.cpp`, and then proceed to AND it with `111`, or `0x7`:
+Recall that `idx`, when being used to set the value of `memory[idx]` in the clock positive edge trigger, is incremented by 5. However, it is only a 3-bit value. To account for this, I wrote a simple C program that would increment an 8-bit integer `i` 100 times, mimicking the `for` loop in `main.cpp`, and then proceed to AND it with `111`, or `0x7`:
 
 ```c
 #include <stdio.h>

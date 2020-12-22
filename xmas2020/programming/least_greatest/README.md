@@ -83,6 +83,10 @@ GCD decomposition: &nbsp; 2<sup>2</sup>
 
 &nbsp; &nbsp;GL decomposition: &nbsp; 3<sup>1</sup>
 
+Using the result from the GL decomposition, we know that between LCM and GCD, only one can have 3<sup>1</sup> as a factor. This means we have one pair, which yields two different options for factor pairs.
+
+Since we want to know how many unique factor pairs are possible, say we have a hypothetical GL with 3 different prime/power pairs. Each factor will mean one pair with two different options. Since there are two pair options per prime factor, our formula for this GL to find out the total number of unique factor pairs would be 2<sup>3</sup>. 
+
 We can now say that the number of pairs of (`x`,`y`) that exist such that `LCM(x,y) = 12` and `GCD(x,y) =  4` is equal to 2<sup>len(GL)</sup>.
 
 In this case, the number of pairs would be: 2<sup>1</sup> = 2.

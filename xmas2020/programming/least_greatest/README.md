@@ -48,7 +48,7 @@ So, the prime power decompositions for `x` and `y`  in this case are as follows:
 
 decomposition of 4: 2<sup>2</sup>
 
-decomposition of 6: 2<sup>1</sup> $\times$ 3<sup>1</sup>
+decomposition of 6: 2<sup>1</sup> × 3<sup>1</sup>
 
 Now, we know `GCD(x,y) = 2` because 2<sup>1</sup> goes into both decompositions (2<sup>1</sup> divides 2<sup>2</sup>). This works for larger numbers with more prime factors as well. 
 
@@ -65,7 +65,7 @@ GCD(x,y) =  4
 
 First, let's obtain the prime power decompositions of `12` and `4`:
 
-decomposition of LCM: &nbsp; 2<sup>2</sup> $\times$ 3<sup>1</sup>
+decomposition of LCM: &nbsp; 2<sup>2</sup> × 3<sup>1</sup>
 
 decomposition of GCD: &nbsp; 2<sup>2</sup>
 
@@ -77,7 +77,7 @@ For each prime/power pair in `GL`, if the same prime/power pair exists in the de
 
 In our case of `LCM(x,y) = 12` and `GCD(x,y) =  4`, we can now say:
 
-LCM decomposition: &nbsp; 2<sup>2</sup> $\times$ 3<sup>1</sup>
+LCM decomposition: &nbsp; 2<sup>2</sup> × 3<sup>1</sup>
 
 GCD decomposition: &nbsp; 2<sup>2</sup>
 

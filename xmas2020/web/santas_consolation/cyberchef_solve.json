@@ -1,0 +1,22 @@
+[
+    { "op": "Find / Replace",
+      "args": [{ "option": "Simple string", "string": "|" }, " ", true, false, true, false] },
+    { "op": "From Decimal",
+      "args": ["Space", false] },
+    { "op": "URL Decode",
+      "args": [] },
+    { "op": "Find / Replace",
+      "args": [{ "option": "Simple string", "string": "[" }, "", true, false, true, false] },
+    { "op": "Find / Replace",
+      "args": [{ "option": "Simple string", "string": "]" }, "", true, false, true, false] },
+    { "op": "Find / Replace",
+      "args": [{ "option": "Regex", "string": "a" }, "4", true, false, true, false] },
+    { "op": "Find / Replace",
+      "args": [{ "option": "Regex", "string": "e" }, "3", true, false, true, false] },
+    { "op": "Find / Replace",
+      "args": [{ "option": "Regex", "string": "i" }, "1", true, false, true, false] },
+    { "op": "Find / Replace",
+      "args": [{ "option": "Regex", "string": "t" }, "7", true, false, true, false] },
+    { "op": "Find / Replace",
+      "args": [{ "option": "Regex", "string": "z" }, "_", true, false, true, false] }
+  ]

@@ -5,5 +5,6 @@ CTF Writeups
 
 Writeups for the following competitions are contained within this repo:
 
-  * [GoogleCTF 2020](./googlectf2020)
+  * [X-MAS CTF 2020](./xmas2020)
   * [HackTheBox University CTF 2020](./hackthebox-uni-2020)
+  * [GoogleCTF 2020](./googlectf2020)

@@ -1,4 +1,4 @@
-Biggest Lowest
+Least Greatest
 ===============
 
 Solved by: Dayton Hasty ([dayt0n](https://github.com/dayt0n)), Calen Stewart, Brian Towne

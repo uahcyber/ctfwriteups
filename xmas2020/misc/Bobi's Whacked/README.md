@@ -1,6 +1,6 @@
 ﻿# X-MAS CTF 2020 
 
-### Solver: Will Green ([Ducky] (https://github.com/wlg0005)) 
+### Solver: Will Green ([Ducky](https://github.com/wlg0005)) 
 ### Challenge: Bobi’s Whacked 
 ### Category: Misc 
 

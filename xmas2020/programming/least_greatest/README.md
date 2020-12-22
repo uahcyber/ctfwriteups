@@ -65,9 +65,9 @@ GCD(x,y) =  4
 
 First, let's obtain the prime power decompositions of `12` and `4`:
 
-decomposition of LCM: $\space$ 2<sup>2</sup> $\times$ 3<sup>1</sup>
+decomposition of LCM: &nbsp; 2<sup>2</sup> $\times$ 3<sup>1</sup>
 
-decomposition of GCD: $\space$ 2<sup>2</sup>
+decomposition of GCD: &nbsp; 2<sup>2</sup>
 
 After determining the prime power decomposition of both LCM and GCD, figuring out how many pairs of numbers (`x`,`y`) that satisfy both `LCM(x,y) = 12` and `GCD(x,y) =  4` is quite simple.
 
@@ -77,11 +77,11 @@ For each prime/power pair in `GL`, if the same prime/power pair exists in the de
 
 In our case of `LCM(x,y) = 12` and `GCD(x,y) =  4`, we can now say:
 
-LCM decomposition: $\space$ 2<sup>2</sup> $\times$ 3<sup>1</sup>
+LCM decomposition: &nbsp; 2<sup>2</sup> $\times$ 3<sup>1</sup>
 
-GCD decomposition: $\space$ 2<sup>2</sup>
+GCD decomposition: &nbsp; 2<sup>2</sup>
 
-$\space$ $\space$GL decomposition: $\space$ 3<sup>1</sup>
+&nbsp; &nbsp;GL decomposition: &nbsp; 3<sup>1</sup>
 
 We can now say that the number of pairs of (`x`,`y`) that exist such that `LCM(x,y) = 12` and `GCD(x,y) =  4` is equal to 2<sup>len(GL)</sup>.
 

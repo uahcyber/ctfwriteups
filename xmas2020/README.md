@@ -16,3 +16,4 @@ Categories:
   * [Programming](./programming)
   * [Reverse Engineering](./reverse_engineering)
   * [Web](./web)
+  * [Forensics](./forensics)

@@ -28,7 +28,7 @@ At first I thought this might be referring to the middle part of a video or mayb
 
 ![](Bobi's%20Whacked%20Writeup.005.png)
 
-YouTube kindly shows us that there’s only two videos on his channel with captions enabled. You could go through both videos and find the captions, but surely there’s a better way? My teammate [dayt0n] (https://github.com/dayt0n), suggested I take a look at a program called youtube-dl, which worked perfectly. 
+YouTube kindly shows us that there’s only two videos on his channel with captions enabled. You could go through both videos and find the captions, but surely there’s a better way? My teammate [dayt0n](https://github.com/dayt0n), suggested I take a look at a program called youtube-dl, which worked perfectly. 
 
 Using youtube-dl we can download all subtitles/captions: 
 

@@ -19,7 +19,7 @@ Opening up the PNG file in GIMP (or any other image manipulation program, e.g., 
 
 ![](look%20at%20all%20the%20pixels.002.png)
 
-Interesting, it does seem that each pixel is a distinct color with no real relation to the pixels around them. Perhaps the hex values for each color represent something? Let's grab the hex values of the first few couple pixels using the color picker tool:
+Interesting, it does seem that each pixel is a distinct color with no real relation to the pixels around them. Perhaps the hex values for each color represent something? Let's grab the hex values of the first couple pixels using the color picker tool:
 
 ![](look%20at%20all%20the%20pixels.003.png)
 

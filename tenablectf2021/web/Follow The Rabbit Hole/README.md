@@ -13,6 +13,7 @@
 This was a nice challenge that highlighted the importance of knowing how to automate tasks using a scripting language like python or bash.
 
 Navigating to the provided URL, we're presented with the following:
+
 ![](Follow%20The%20Rabbit%20Hole%20Writeup.001.png)
 
 That is the only text on the page. Admittedly this had be confused for a little bit until I noticed the URL had changed from when we initially navigated to the page:
@@ -22,6 +23,7 @@ That is the only text on the page. Admittedly this had be confused for a little 
 Interesting, that page parameter looks to be about the same length as the random string of characters that we see on the page. So what happens if we take that data and supply it to the page parameter?
 
 `http://167.71.246.232:8080/rabbit_hole.php?page=4O48APmBiNJhZBfTWMzD`
+
 ![](Follow%20The%20Rabbit%20Hole%20Writeup.002.png)
 
 Ah, we're presented with similar but different information. You could continue doing this, but as you will soon see this would be quite the task to do by hand.
@@ -78,6 +80,7 @@ Brief Regex explanation:
 - 0, = number followed by comma so we don't get other numbers
 
 we can extract the hex data for the actual first few pages just by updating 0 to 1, to 2, etc. Doing this for the first 4 pages we get: `89 50 4E 47` Let's decode that using [CyberChef](https://gchq.github.io/CyberChef/):
+
 ![](Follow%20The%20Rabbit%20Hole%20Writeup.004.png)
 
 Cool, the hex data seems to make up a PNG file! Now all we have to do is write each byte of hex to a file, so I crafted a script to do that:
@@ -113,6 +116,7 @@ with open("rabbit_hole.png",'ab') as f1:
 ```
 
 Running the script we get this image:
+
 ![](Follow%20The%20Rabbit%20Hole%20Writeup.005.png)
 
 Indeed, it is!

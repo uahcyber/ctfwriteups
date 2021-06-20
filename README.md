@@ -5,6 +5,7 @@ CTF Writeups
 
 Writeups for the following competitions are contained within this repo:
   
+  * [WeCTF 2021](./wectf2021)
   * [zer0pts CTF 2021](./zer0ptsctf2021)
   * [Tenable CTF 2021](./tenablectf2021)
   * [DiceCTF 2021](./dicectf2021)

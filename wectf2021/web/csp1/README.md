@@ -1,6 +1,6 @@
 # WeCTF 2021
 
-### Solver: Will Green ([Ducky](https://github.com/wlg0005))
+### Solved by: Dayton Hasty ([dayt0n](https://github.com/dayt0n)), Will Green ([Ducky](https://github.com/wlg0005))
 ### Challenge: CSP1
 ### Category: Web 
 

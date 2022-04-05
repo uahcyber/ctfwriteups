@@ -5,6 +5,7 @@ CTF Writeups
 
 Writeups for the following competitions are contained within this repo:
   
+  * [RITSEC CTF 2022](./ritsec2022)
   * [WeCTF 2021](./wectf2021)
   * [DEF CON CTF Quals 2021](./defconctfquals2021)
   * [zer0pts CTF 2021](./zer0ptsctf2021)
